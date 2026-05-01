@@ -27,7 +27,7 @@ Open in browser:
 
 ---
 
-This is an experimental sandbox for the Contribution Protocol (CP).
+This is a sandbox for observing the core behavior of the Contribution Protocol (CP).　
 
 This sandbox **runs the minimal structure of CP**:
 [cp-minimal-structure.txt](https://github.com/contribution-protocol/cp-core-spec/blob/main/cp-minimal-structure.txt)
@@ -127,7 +127,7 @@ php -S localhost:8000
 
 ---
 
-これはContribution Protocol（CP）の検証用サンドボックスです。
+これはContribution Protocol（CP）のコア挙動を観察するためのサンドボックスです。
 
 このsandboxは、以下の**CP最小構造を実行するものです**：
 [cp-minimal-structure.txt](https://github.com/contribution-protocol/cp-core-spec/blob/main/cp-minimal-structure.txt)
