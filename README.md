@@ -1,5 +1,17 @@
 # CP Sandbox
 
+This is not a demo.  
+This is for observing system behavior.
+
+In this system, the following behaviors actually occur:
+
+- value is issued  
+- value disappears over time  
+- neither is decided by humans  
+
+*Expiration is triggered manually for observation.*
+
+
 ▶ Run this now (30 sec)
 
 ```bash
@@ -33,7 +45,7 @@ This sandbox **runs the minimal structure of CP**:
 ## What you can do
 
 * Issue a token (`mint.php`)
-* Wait and see it expire (`expire.php`)
+* Trigger time-based expiration (`expire.php`)
 * Inspect append-only records (`cp.sqlite`)
 
 ---
@@ -43,8 +55,6 @@ This sandbox **runs the minimal structure of CP**:
 * Does issuance ever exceed the available reserve?
 * Do unused tokens expire based on time alone?
 * Are all records strictly append-only?
-
-This sandbox is not for validation — it is for observing how these properties behave.
 
 ---
 
@@ -90,6 +100,18 @@ Issues and PRs are welcome.
 
 # 日本語
 
+これはデモではありません。
+これはシステムの挙動を観察するためのものです。
+
+このシステムでは、次のような挙動が実際に発生します：
+
+- 価値が発行される
+- 価値が時間によって消える
+- そのどちらも、人間は決めていない
+
+※ 失効は観察のために手動で実行されます。
+
+
 ▶ 今すぐ実行（30秒）
 
 ```bash
@@ -123,7 +145,7 @@ php -S localhost:8000
 ## できること
 
 * トークンを発行する（`mint.php`）
-* 時間による失効を確認する（`expire.php`）
+* 時間による失効を実行する（`expire.php`）
 * 追記のみの記録を確認する（`cp.sqlite`）
 
 ---
@@ -133,8 +155,6 @@ php -S localhost:8000
 * 発行が引当残高を超えないか
 * 未使用トークンが時間のみで失効するか
 * 記録が完全に追記のみか
-
-このsandboxは検証ではなく、挙動の観察のためのものです。
 
 ---
 
