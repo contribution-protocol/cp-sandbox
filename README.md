@@ -53,7 +53,7 @@ This sandbox **runs the minimal structure of CP**:
 ## ⚠️ Warning
 
 * Not production-ready
-* May contain bugs
+* May contain bugs (e.g. double issuance)
 * For observing minimal behavior only
 
 ---
@@ -170,7 +170,7 @@ php -S localhost:8000
 ## ⚠️ 注意
 
 * 本番利用は想定していません
-* バグの可能性があります
+* 二重発行などのバグが含まれる可能性があります
 * 最小挙動の観察用です
 
 ---
