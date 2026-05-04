@@ -15,9 +15,8 @@ CP:
 This sandbox may look simple,
 but it is built on fundamentally different constraints.
 
-
 This is not a demo.  
-This is for observing system behavior.
+This is for observing system behavior under these constraints.
 
 In this system, the following behaviors actually occur:
 
@@ -134,7 +133,7 @@ CPでは：
 
 
 これはデモではありません。
-これはシステムの挙動を観察するためのものです。
+これはこれらの制約のもとでのシステム挙動を観察するためのものです。
 
 このシステムでは、次のような挙動が実際に発生します：
 
