@@ -1,5 +1,21 @@
 # CP Sandbox
 
+## This is NOT a typical system
+
+Most systems:
+- update state (UPDATE)
+- delete data (DELETE)
+- allow human control
+
+CP:
+- does NOT update state (append-only)
+- does NOT delete data
+- does NOT allow human control over expiration (time-only)
+
+This sandbox may look simple,
+but it is built on fundamentally different constraints.
+
+
 This is not a demo.  
 This is for observing system behavior.
 
@@ -9,7 +25,8 @@ In this system, the following behaviors actually occur:
 - value disappears over time  
 - neither is decided by humans  
 
-*Expiration is triggered manually for observation.*
+*Expiration is triggered manually for observation,  
+but the condition of expiration itself is determined by time, not human decision.*
 
 
 ▶ Run this now (30 sec)
@@ -100,6 +117,22 @@ Issues and PRs are welcome.
 
 # 日本語
 
+## これは一般的なシステムではありません
+
+多くのシステムでは：
+- 状態を更新する（UPDATE）
+- データを削除する（DELETE）
+- 人が制御できる
+
+CPでは：
+- 状態を更新しない（追記のみ / append-only）
+- データを削除しない
+- 失効は人が制御できない（時間のみで決まる）
+
+このsandboxはシンプルに見えますが、
+前提となる制約は根本的に異なります。
+
+
 これはデモではありません。
 これはシステムの挙動を観察するためのものです。
 
@@ -109,7 +142,8 @@ Issues and PRs are welcome.
 - 価値が時間によって消える
 - そのどちらも、人間は決めていない
 
-※ 失効は観察のために手動で実行されます。
+※ 失効は観察のために手動で実行されますが、  
+失効の条件そのものは人ではなく時間によって決まります。
 
 
 ▶ 今すぐ実行（30秒）
